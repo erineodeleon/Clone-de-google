@@ -44,3 +44,8 @@ nav .seccion .menu {
     width: 25px;
     height: 25px;
 }
+
+nav .seccion img {
+    border-radius: 50px;
+    margin-left: 10px;
+}
