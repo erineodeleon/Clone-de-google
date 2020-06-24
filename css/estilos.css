@@ -157,5 +157,43 @@ main .seccion3 button:hover {
 
 /*footer*/
 
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+.text {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    padding-left: 27px;
+}
+
+footer .footer_ul {
+    justify-self: left;
+}
+
+footer .footer-ul2 {
+    justify-self: right;
+}
+
+footer ul li a {
+    margin: 10px;
+    color: #5f6368;
+    font-size: 15px;
+}
+
 
 /*fin de footer*/
